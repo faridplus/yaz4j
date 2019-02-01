@@ -154,6 +154,7 @@
           <forkMode>once</forkMode>
           <workingDirectory>target</workingDirectory>
           <argLine>-Djava.library.path=${project.build.directory}</argLine>
+          <useSystemClassLoader>false</useSystemClassLoader>
         </configuration>
       </plugin>
     </plugins>    
